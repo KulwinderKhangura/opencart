@@ -1,0 +1,141 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>opencart_aug10</groupId>
+  <artifactId>opencart_aug10</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <build>
+    <pluginManagement>
+    <!-- Because of these two plugins we can run our prject with pom.xml file 
+       1. Maven surefire plugin will run the project
+       2. Maven - Compiler Plugin will compile the project
+       3. TestNG we have to install but Maven already comes with the eclipse
+       4. Maven is in the eclipse which comes with it and if we want to run our project outside eclispe
+       then we have to install Maven in the operating system level;
+       5. download the maven and keep it in the c driver after extracting the zip file
+       C:\Users\deepg\OneDrive\Desktop\wallpaper slide\Tech Space\manual\Selenium\JavaSeleniumPrograms\opencart_aug10
+   
+   		command for cmp
+   	1.	cd C:\Users\deepg\OneDrive\Desktop\wallpaper slide\Tech Space\manual\Selenium\JavaSeleniumPrograms\opencart_aug10
+   		this will capture the location and after this command we will be enter in the project location
+   	
+   	2. dir
+   	 	this will give all the file in the project
+   	 	
+   	3. mvn test 
+   		this cmd will automatically recognize the file and it will run the pom.xml automatically
+   		
+   	Why we have to run the project by command Prompt
+   	Because if it is not able to run here, in future you cannot run the same thing through jenkins
+   
+   how to run file with bat file
+   
+   1. create a file in the project with name run.bat
+   2. copy the commands in the file that we used in the command prompt
+   3. save the file
+   before creating the bat file  we have to run the project in the eclipse and in the pom file
+    -->
+  		<plugins>
+  
+  			  <plugin>
+			       <groupId>org.apache.maven.plugins</groupId>
+			       <artifactId>maven-surefire-plugin</artifactId>
+			       <version>3.0.0-M7</version>
+			        <configuration>
+		          	<suiteXmlFiles>
+		          	      		 <suiteXmlFile>Mastertestng.xml</suiteXmlFile>
+		          	 </suiteXmlFiles>
+		          
+		          </configuration>
+			   </plugin>
+        
+		 	 <plugin>
+		          <groupId>org.apache.maven.plugins</groupId>
+		          <artifactId>maven-compiler-plugin</artifactId>
+		          <version>3.10.1</version>
+		      </plugin>
+        
+        
+  		</plugins>
+  
+ 	 </pluginManagement>
+ </build>
+  
+  
+  <dependencies>
+	  
+	 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.9.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<!--<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.3.3</version>
+</dependency> 
+ -->
+	  <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.2.3</version>
+</dependency>
+
+	  <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.2.3</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.20.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.20.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.12.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.12.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.8.0</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.0.9</version>
+</dependency>
+
+	  
+	  
+	  
+	  
+  </dependencies>
+</project>
