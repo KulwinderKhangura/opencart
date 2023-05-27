@@ -9,3 +9,22 @@
 01:38:31.422 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue Button
 01:38:36.477 [main] INFO  testCases.TC_001_AccountRegistrationTest - Verifying expected message
 01:38:36.479 [main] INFO  testCases.TC_001_AccountRegistrationTest - Finished TC_001_AccountRegistrationTest
+02:49:45.043 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***Starting TC_001_AccountRegistrationTest 
+02:49:45.168 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My Account link
+02:49:46.093 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register link
+02:49:46.096 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing the customer data
+02:49:52.537 [main] ERROR testCases.TC_001_AccountRegistrationTest - Test Failed
+02:50:28.568 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***Starting TC_001_AccountRegistrationTest 
+02:50:28.698 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My Account link
+02:50:29.175 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register link
+02:50:29.179 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing the customer data
+02:50:39.655 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue Button
+02:50:44.712 [main] INFO  testCases.TC_001_AccountRegistrationTest - Verifying expected message
+02:50:44.715 [main] INFO  testCases.TC_001_AccountRegistrationTest - Finished TC_001_AccountRegistrationTest
+02:57:24.200 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***Starting TC_001_AccountRegistrationTest 
+02:57:24.320 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My Account link
+02:57:25.007 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register link
+02:57:25.010 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing the customer data
+02:57:35.525 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue Button
+02:57:40.583 [main] INFO  testCases.TC_001_AccountRegistrationTest - Verifying expected message
+02:57:40.585 [main] INFO  testCases.TC_001_AccountRegistrationTest - Finished TC_001_AccountRegistrationTest
