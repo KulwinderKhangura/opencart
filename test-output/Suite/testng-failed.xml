@@ -6,11 +6,6 @@
   </listeners>
   <test thread-count="5" name="OpencartTest(failed)">
     <parameter name="browser" value="chrome"/>
-    <groups>
-      <run>
-        <include name="Master"/>
-      </run>
-    </groups>
     <classes>
       <class name="testCases.TC_001_AccountRegistrationTest">
         <methods>
